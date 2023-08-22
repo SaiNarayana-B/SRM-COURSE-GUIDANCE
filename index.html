@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Course Details</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>College Course Details</h1>
+        </div>
+
+        <div class="button-container">
+            <button id="regulation-button" class="custom-button">Select Regulation</button>
+            <button id="course-button" class="custom-button" style="display:none;">Select Course</button>
+        </div>
+
+        <h1 id="subject-title" style="display:none;">Subject Details:</h1>
+        <div id="subject-details" style="display:none;"></div>
+    </div>
+
+    <div id="regulation-modal" class="modal">
+        <div class="modal-content">
+            <h2>Select Regulation</h2>
+            <button id="regulation-2018" class="custom-button">2018</button>
+            <button id="regulation-2021" class="custom-button">2021</button>
+        </div>
+    </div>
+
+    <div id="course-modal" class="modal">
+        <div class="modal-content">
+            <h2>Select Course</h2>
+            <button id="course-cse" class="custom-button">CSE</button>
+            <button id="course-ai-ml" class="custom-button">AI-ML</button>
+            <button id="course-ece" class="custom-button">ECE</button>
+            <!-- Add more course buttons as needed -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
