@@ -149,17 +149,17 @@ var courseData = {
             ],
             "7": [
                 {
-                    "Subject Code": "",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 5",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 6",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Open Elective - 3",
                     "Credits": 3
                 },
@@ -196,17 +196,17 @@ var courseData = {
                     "Credits": 1
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 3",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 4",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Open Elective - 2",
                     "Credits": 3
                 },
@@ -248,17 +248,17 @@ var courseData = {
                     "Credits": 1
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 1",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 2",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Open Elective - 1",
                     "Credits": 3
                 },
@@ -588,7 +588,7 @@ var courseData = {
                 },
                 {
                     "Subject Code": "18ECE202T",
-                    "Subject": "Micro- and Nano-Fabrication Technologies",
+                    "Subject": "Micro- and -o-Fabrication Technologies",
                     "Credits": 3
                 },
                 {
@@ -628,7 +628,7 @@ var courseData = {
                 },
                 {
                     "Subject Code": "18ECE303T",
-                    "Subject": "Nanoelectronic Devices and Circuits",
+                    "Subject": "-oelectronic Devices and Circuits",
                     "Credits": 3
                 },
                 {
@@ -771,17 +771,17 @@ var courseData = {
                     "Credits": 4
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective-5",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective-6",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Open Elective-4",
                     "Credits": 3
                 },
@@ -813,17 +813,17 @@ var courseData = {
                     "Credits": 1
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective-3",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective-4",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Open Elective-3",
                     "Credits": 3
                 },
@@ -865,12 +865,12 @@ var courseData = {
                     "Credits": 4
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 2",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Open Elective - 2",
                     "Credits": 3
                 },
@@ -912,12 +912,12 @@ var courseData = {
                     "Credits": 4
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective-1",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Open Elective-1",
                     "Credits": 3
                 },
@@ -1188,17 +1188,17 @@ var courseData = {
             ],
             "7": [
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 5",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 6",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Open Elective - 3",
                     "Credits": 3
                 },
@@ -1235,17 +1235,17 @@ var courseData = {
                     "Credits": 1
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 3",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 4",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Open Elective - 2",
                     "Credits": 3
                 },
@@ -1287,17 +1287,17 @@ var courseData = {
                     "Credits": 1
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 1",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Professional Elective - 2",
                     "Credits": 3
                 },
                 {
-                    "Subject Code": "nan",
+                    "Subject Code": "-",
                     "Subject": "Open Elective - 1",
                     "Credits": 3
                 },
