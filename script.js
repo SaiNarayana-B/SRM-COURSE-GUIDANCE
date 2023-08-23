@@ -149,7 +149,7 @@ var courseData = {
             ],
             "7": [
                 {
-                    "Subject Code": "-",
+                    "Subject Code": "",
                     "Subject": "Professional Elective - 5",
                     "Credits": 3
                 },
