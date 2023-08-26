@@ -5576,7 +5576,6 @@ function displaySubjectDetails() {
     }
 }
 
-
 document.getElementById('regulation-button').addEventListener('click', openRegulationModal);
 document.getElementById('course-button').addEventListener('click', openCourseModal);
 
@@ -5602,9 +5601,7 @@ document.getElementById('regulation-2021').addEventListener('click', function() 
     selectedCourse = '';
 });
 
-
-// ... Similar event listeners for other regulations like 2021
-
+// Event listener for 'CSE' course (available for both Regulation 2018 and 2021)
 document.getElementById('course-cse').addEventListener('click', function() {
     selectedCourse = 'CSE';
     document.getElementById('course-button').textContent = 'Course: CSE';
@@ -5614,6 +5611,7 @@ document.getElementById('course-cse').addEventListener('click', function() {
     document.getElementById('subject-details').style.display = 'block';
 });
 
+// Event listener for 'AI-ML' course (available for both Regulation 2018 and 2021)
 document.getElementById('course-ai-ml').addEventListener('click', function() {
     selectedCourse = 'AI-ML';
     document.getElementById('course-button').textContent = 'Course: AI-ML';
@@ -5623,6 +5621,7 @@ document.getElementById('course-ai-ml').addEventListener('click', function() {
     document.getElementById('subject-details').style.display = 'block';
 });
 
+// Event listener for 'ECE' course (available for both Regulation 2018 and 2021)
 document.getElementById('course-ece').addEventListener('click', function() {
     selectedCourse = 'ECE';
     document.getElementById('course-button').textContent = 'Course: ECE';
@@ -5632,11 +5631,7 @@ document.getElementById('course-ece').addEventListener('click', function() {
     document.getElementById('subject-details').style.display = 'block';
 });
 
-
-// ... Similar event listeners for other courses like AI-ML, ECE, etc.
-
-
-// Event listener for 'IT' course
+// Event listener for 'IT' course (available for Regulation 2021)
 document.getElementById('course-it').addEventListener('click', function() {
     selectedCourse = 'IT';
     document.getElementById('course-button').textContent = 'Course: IT';
@@ -5646,7 +5641,7 @@ document.getElementById('course-it').addEventListener('click', function() {
     document.getElementById('subject-details').style.display = 'block';
 });
 
-// Event listener for 'EEE' course
+// Event listener for 'EEE' course (available for Regulation 2021)
 document.getElementById('course-eee').addEventListener('click', function() {
     selectedCourse = 'EEE';
     document.getElementById('course-button').textContent = 'Course: EEE';
@@ -5656,7 +5651,7 @@ document.getElementById('course-eee').addEventListener('click', function() {
     document.getElementById('subject-details').style.display = 'block';
 });
 
-// Event listener for 'Big Data Analytics' course
+// Event listener for 'Big Data Analytics' course (available for Regulation 2021)
 document.getElementById('course-big-data-analytics').addEventListener('click', function() {
     selectedCourse = 'Big Data Analytics';
     document.getElementById('course-button').textContent = 'Course: Big Data Analytics';
@@ -5666,7 +5661,7 @@ document.getElementById('course-big-data-analytics').addEventListener('click', f
     document.getElementById('subject-details').style.display = 'block';
 });
 
-// Event listener for 'Cybersecurity' course
+// Event listener for 'Cybersecurity' course (available for Regulation 2021)
 document.getElementById('course-cybersecurity').addEventListener('click', function() {
     selectedCourse = 'Cybersecurity';
     document.getElementById('course-button').textContent = 'Course: Cybersecurity';
@@ -5676,7 +5671,7 @@ document.getElementById('course-cybersecurity').addEventListener('click', functi
     document.getElementById('subject-details').style.display = 'block';
 });
 
-// Event listener for 'Biotechnology' course
+// Event listener for 'Biotechnology' course (available for Regulation 2021)
 document.getElementById('course-biotechnology').addEventListener('click', function() {
     selectedCourse = 'Biotechnology';
     document.getElementById('course-button').textContent = 'Course: Biotechnology';
@@ -5685,4 +5680,3 @@ document.getElementById('course-biotechnology').addEventListener('click', functi
     document.getElementById('subject-title').style.display = 'block';
     document.getElementById('subject-details').style.display = 'block';
 });
-
