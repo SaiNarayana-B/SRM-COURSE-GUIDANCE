@@ -5588,6 +5588,18 @@ document.getElementById('regulation-2018').addEventListener('click', function() 
     document.getElementById('subject-title').style.display = 'none';
     document.getElementById('subject-details').style.display = 'none';
     selectedCourse = '';
+    
+    // Hide courses for 2021 regulation
+    var courses2021 = document.getElementsByClassName('course-2021');
+    for (var i = 0; i < courses2021.length; i++) {
+        courses2021[i].style.display = 'none';
+    }
+    
+    // Show courses for 2018 regulation
+    var courses2018 = document.getElementsByClassName('course-2018');
+    for (var i = 0; i < courses2018.length; i++) {
+        courses2018[i].style.display = 'block';
+    }
 });
 
 document.getElementById('regulation-2021').addEventListener('click', function() {
@@ -5599,6 +5611,18 @@ document.getElementById('regulation-2021').addEventListener('click', function() 
     document.getElementById('subject-title').style.display = 'none';
     document.getElementById('subject-details').style.display = 'none';
     selectedCourse = '';
+    
+    // Hide courses for 2018 regulation
+    var courses2018 = document.getElementsByClassName('course-2018');
+    for (var i = 0; i < courses2018.length; i++) {
+        courses2018[i].style.display = 'none';
+    }
+    
+    // Show courses for 2021 regulation
+    var courses2021 = document.getElementsByClassName('course-2021');
+    for (var i = 0; i < courses2021.length; i++) {
+        courses2021[i].style.display = 'block';
+    }
 });
 
 // Event listener for 'CSE' course (available for both Regulation 2018 and 2021)
