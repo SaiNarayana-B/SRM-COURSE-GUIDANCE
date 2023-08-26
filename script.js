@@ -5591,6 +5591,18 @@ document.getElementById('regulation-2018').addEventListener('click', function() 
     selectedCourse = '';
 });
 
+document.getElementById('regulation-2021').addEventListener('click', function() {
+    selectedRegulation = '2021';
+    document.getElementById('regulation-button').textContent = 'Regulation: 2021';
+    document.getElementById('regulation-modal').style.display = 'none';
+    document.getElementById('course-button').style.display = 'block';
+    document.getElementById('course-button').textContent = 'Select Course';
+    document.getElementById('subject-title').style.display = 'none';
+    document.getElementById('subject-details').style.display = 'none';
+    selectedCourse = '';
+});
+
+
 // ... Similar event listeners for other regulations like 2021
 
 document.getElementById('course-cse').addEventListener('click', function() {
