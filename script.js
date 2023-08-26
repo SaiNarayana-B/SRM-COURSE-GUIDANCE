@@ -5634,3 +5634,55 @@ document.getElementById('course-ece').addEventListener('click', function() {
 
 
 // ... Similar event listeners for other courses like AI-ML, ECE, etc.
+
+
+// Event listener for 'IT' course
+document.getElementById('course-it').addEventListener('click', function() {
+    selectedCourse = 'IT';
+    document.getElementById('course-button').textContent = 'Course: IT';
+    document.getElementById('course-modal').style.display = 'none';
+    displaySubjectDetails();
+    document.getElementById('subject-title').style.display = 'block';
+    document.getElementById('subject-details').style.display = 'block';
+});
+
+// Event listener for 'EEE' course
+document.getElementById('course-eee').addEventListener('click', function() {
+    selectedCourse = 'EEE';
+    document.getElementById('course-button').textContent = 'Course: EEE';
+    document.getElementById('course-modal').style.display = 'none';
+    displaySubjectDetails();
+    document.getElementById('subject-title').style.display = 'block';
+    document.getElementById('subject-details').style.display = 'block';
+});
+
+// Event listener for 'Big Data Analytics' course
+document.getElementById('course-big-data-analytics').addEventListener('click', function() {
+    selectedCourse = 'Big Data Analytics';
+    document.getElementById('course-button').textContent = 'Course: Big Data Analytics';
+    document.getElementById('course-modal').style.display = 'none';
+    displaySubjectDetails();
+    document.getElementById('subject-title').style.display = 'block';
+    document.getElementById('subject-details').style.display = 'block';
+});
+
+// Event listener for 'Cybersecurity' course
+document.getElementById('course-cybersecurity').addEventListener('click', function() {
+    selectedCourse = 'Cybersecurity';
+    document.getElementById('course-button').textContent = 'Course: Cybersecurity';
+    document.getElementById('course-modal').style.display = 'none';
+    displaySubjectDetails();
+    document.getElementById('subject-title').style.display = 'block';
+    document.getElementById('subject-details').style.display = 'block';
+});
+
+// Event listener for 'Biotechnology' course
+document.getElementById('course-biotechnology').addEventListener('click', function() {
+    selectedCourse = 'Biotechnology';
+    document.getElementById('course-button').textContent = 'Course: Biotechnology';
+    document.getElementById('course-modal').style.display = 'none';
+    displaySubjectDetails();
+    document.getElementById('subject-title').style.display = 'block';
+    document.getElementById('subject-details').style.display = 'block';
+});
+
